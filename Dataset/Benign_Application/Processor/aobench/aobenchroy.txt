@@ -1,0 +1,16 @@
+aobench_roy
+Intel Core i7-10610U testing with a Dell 0M5G57 (1.1.1 BIOS) and Intel UHD CML GT2 3GB on Ubuntu 20.04 via the Phoronix Test Suite.
+
+
+aobench_roy_test_run: 
+
+	Processor: Intel Core i7-10610U @ 4.90GHz (4 Cores / 8 Threads), Motherboard: Dell 0M5G57 (1.1.1 BIOS), Chipset: Intel Device 02ef, Memory: 16GB, Disk: Kioxia KBG40ZNS256G NVMe 256GB, Graphics: Intel UHD CML GT2 3GB (1150MHz), Audio: Realtek ALC3254, Monitor: ASUS VS228, Network: Intel-AC 9462
+
+	OS: Ubuntu 20.04, Kernel: 5.13.0-35-generic (x86_64), Desktop: GNOME Shell 3.36.9, Display Server: X Server 1.20.13, OpenGL: 4.6 Mesa 21.2.6, Vulkan: 1.2.182, Compiler: GCC 9.4.0, File-System: ext4, Screen Resolution: 3840x1080
+
+
+AOBench
+Size: 2048 x 2048 - Total Time
+Seconds < Lower Is Better
+aobench_roy_test_run . 33.00 |=================================================
+

@@ -1,0 +1,23 @@
+clc;clear all;
+cnn_fpr=readmatrix('CNN_FPR.txt');
+cnn_tpr=readmatrix('CNN_TPR.txt');
+gb_fpr=readmatrix('GB_FPR.txt');
+gb_tpr=readmatrix('GB_TPR.txt');
+knn_fpr=readmatrix('KNN_FPR.txt');
+knn_tpr=readmatrix('KNN_TPR.txt');
+ns_fpr=readmatrix('NS_FPR.txt');
+ns_tpr=readmatrix('NS_TPR.txt');
+rf_fpr=readmatrix('RF_FPR.txt');
+rf_tpr=readmatrix('RF_TPR.txt');
+svm_fpr=readmatrix('SVM_FPR.txt');
+svm_tpr=readmatrix('SVM_TPR.txt');
+
+plot(cnn_fpr,cnn_tpr); hold on;
+plot(knn_fpr,knn_tpr);
+plot(svm_fpr,svm_tpr);
+plot(rf_fpr,rf_tpr);
+plot(gb_fpr,gb_tpr);
+plot(ns_fpr,ns_tpr,'--');
+legend('CNN','KNN','SVM','Random Forest','Gradient Boosting', 'No Prediction');
+xlabel('False Positive Rate');
+ylabel('True Positive Rate');

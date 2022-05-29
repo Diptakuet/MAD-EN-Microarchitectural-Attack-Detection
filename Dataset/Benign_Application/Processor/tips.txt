@@ -1,0 +1,8 @@
+<Changing run time>
+cd ~/.phoronix-test-suite/test-profiles/pts/aobench-1.0.1
+
+<DynamicRunCount == FALSE>
+#without root
+~/.phoronix-test-suite/user-config.xml or 
+#root
+/etc/phoronix-test-suite.xml

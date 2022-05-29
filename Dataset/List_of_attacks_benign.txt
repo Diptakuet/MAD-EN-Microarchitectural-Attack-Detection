@@ -1,0 +1,116 @@
+%% Offline Phase
+
+% Benign Application (35)
+Processor: 1. aobench
+Processor: 2-4. botan
+Processor: 5. byte
+Processor: 6-7. cachebench
+Processor: 8. encode-mp3
+Processor: 9-10. arrayfire
+Processor: 11-13. bullet
+Processor: 14-15. jpegxl
+
+System: 16. git
+System: 17-18. php
+System: 19. pybench
+System: 20. basis
+
+%% Disk: 21. blogbench
+Disk: 22-23. tiobench
+Disk: 24. unpack_linux
+Disk: 25. fio
+
+RealWorld: 26. Website
+RealWorld: 27. libreoffice
+RealWorld: 28. visual_studio_code
+RealWorld: 29. pycharm
+RealWorld: 30. zoom
+
+Video: 31-35
+
+% Attacks (15)
+
+1. Flush+Reload
+2. Flush+Flush
+3. Prime+Probe
+4. Portsmash
+5. TLBleed
+6-9. Spectre
+10-12. Medusa
+13. Zombieload
+14. Fallout
+15. BHI
+% --------------------------------------------------------------------------------------------------
+
+%% Online phase
+
+% Benign Application (50)
+
+1.XC_aobench 
+2.XC_botan 
+3.XC_byte 
+4.XC_cachebench 
+5.XC_encode_mp3 
+6.XC_arrayfire 
+7.XC_bullet 
+8.XC_jpegxl 
+9.XC_git 
+10.XC_php 
+11.XC_pybench 
+12.XC_basis 
+13.XC_unpack_linux 
+14.XC_fio 
+15.XC_video 
+16.XC_office 
+17.XC_amg 
+18.XC_glibc_bench 
+19.XC_luxcorerender 
+20.XC_gnupg 
+21.XC_hackbench 
+22.XC_himeno
+23.XC_ipc_benchmark 
+24.XC_libraw 
+25.XC_lzbench 
+26.XC_minion 
+27.XC_nqueens 
+28.XC_asmfish 
+29.XC_blake2 
+30.XC_blosc 
+31.XC_cloverleaf 
+32.XC_cp2k 
+33.XC_cryptopp 
+34.XC_fftw 
+35.XC_gcrypt 
+36.XC_financebench 
+37.XC_idle 
+38.XC_java_jmh
+39.XC_appleseed 
+40.XC_ctx_clock 
+41.XC_hint 
+42.XC_intel_mpi 
+43.XC_natron 
+44.XC_redis 
+45.XC_gegl 
+46.XC_sysbench
+47.XC_tnn 
+48.XC_openscad 
+49.XC_postmark 
+50.XC_sqlite
+
+% Attacks (15)
+
+1. Flush+Reload
+2. Flush+Flush
+3. Prime+Probe
+4. Portsmash
+5. TLBleed
+6-9. Spectre
+10-12. Medusa
+13. Zombieload
+14. Fallout
+15. BHI
+
+
+
+
+
