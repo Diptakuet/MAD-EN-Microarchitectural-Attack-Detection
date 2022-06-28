@@ -2,8 +2,7 @@
 ### Prerequisite
 * install `phoronix-test-suite`
 ### Benign Application:
-`cd ~`
-
+`cd ~`<br/>
 `cd Dataset/Benign_Application/`<br/>
 `phoronix-test-suite`
 `cd <Type of Benign Application>`, e.g., `cd Processor/`<br/>
