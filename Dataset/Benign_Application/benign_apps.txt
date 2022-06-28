@@ -8,7 +8,7 @@ Processor: 15
 7. cachebench--Write
 8. encode-mp3
 **
-9. arrayfire--BLAS CPU ---Average Time: 371.315 GFLOPs        Avearge time_with_RAPL:
+9. arrayfire--BLAS CPU 
 10.arrayfire--cg_CPU
 11. bullet--1000-convex-cpu
 12. bullet--1000-stack-cpu
@@ -29,7 +29,7 @@ Disk: 5
 2. tiobench--write
 3. tiobench--read
 4. unzip-linux
-5. fio*
+5. fio
 
 REeal: 10
 
