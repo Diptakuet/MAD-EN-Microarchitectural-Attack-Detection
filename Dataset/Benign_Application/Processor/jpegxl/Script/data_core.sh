@@ -14,7 +14,7 @@ done
 #elapsed=$(( end_time - start_time ))
 #echo $elapsed
 
-<<COMMENTS
+<<COMMENT
 #start_time=$(date +%s)
 #dram
 
