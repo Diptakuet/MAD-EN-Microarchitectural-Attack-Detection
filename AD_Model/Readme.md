@@ -1,11 +1,14 @@
 # AD Model
-The purpose of the AD model is to differentiate between attack and benign application based on their respective energy consumption traces. 
-For that purpose, in the offline phase 15 categories of attacks including their variants and 35 diverse benign applications are considered. 
-Energy consmuption traces are collected during individual execution of each attack and benign applications. For the offline phase 50 energy 
-trace measurements for each attack/benign application are recorded by utilizing the RAPL framework. Thus, (15+35)x50=2500 energy trace measurents 
-are utilized to create a pretrained AD model which are forwarded in the online phase. 
+The performance of the AD model is tested with different number of samples. One of the key characteristics of micro-architectural attacks is their speed
+of operation. These attacks can steal useful information or secret keys within a short time frame. Hence, it is of utmost importance to detect such anomalies
+as fast as possible. However, faster detection mechanisms lead to the reduction of the recorded samples per measurement, considering the highest possible time
+resolution for energy consumption readings are maintained. The energy consumption traces for each measurement has 3000 samples, which takes around
+30 seconds to collect one complete energy trace before the anomaly classification. This leads to the question, will the AD model still be effective if the data
+collection time frame is reduced further?
 
-In the online phase, 10 additional energy trace measurements are recorded for each 15 categories of attacks. For the benign application, 
-we have included 10 measurements of energy traces from each 50 benign applications (16 tests from offline phase + 34 new tests) to enrich the test dataset. 
-Thus, we have total (15+50)x10=650 test measurements for our online phase. It is to be noted that, AD model is a binary classifier, hence, all the attack 
-instances are labeled as 0 and the benign instances are labeled as 1.
+To answer this question, the performance of the AD models is tested by decreasing the number of samples from 3000 to 500 per measurement, and a
+separate AD model is trained for each case. Here, the name of the each directory corresponds to the number of samples per measurements for which the AD model is 
+created and tested. It is to be noted that, decreasing the number of samples results in faster anomaly detection as we sample the Intel RAPL framework with the highest possible resolution (500μs). Thus, the 500 samples correspond to the initial 5 seconds of the energy traces.
+
+
+
