@@ -8,11 +8,11 @@ To answer this question, the performance of the AD models is tested by decreasin
 created and tested. It is to be noted that decreasing the number of samples results in faster anomaly detection as we sample the Intel RAPL framework with the highest possible resolution (500μs). Thus, the 500 samples correspond to the initial 5 seconds of the energy traces.
 
 [3000/Data](https://github.com/Diptakuet/MAD-EN-Microarchitectural-Attack-Detection/tree/main/AD_Model/3000/Data): Preprocessed data split into the train, validation, and test.
-*X_train.csv: Input energy trace data used for training the AD model
-*Y_train.csv: Output labels of X_train (either 0 or 1).
-*X_validation.csv: Input energy trace data used for validation in the offline phase
-*X_test.csv: Input energy trace data used for testing the AD model in the online phase
-*Y_test.csv: Output labels of X_test (either 0 or 1).
+* X_train.csv: Input energy trace data used for training the AD model
+* Y_train.csv: Output labels of X_train (either 0 or 1).
+* X_validation.csv: Input energy trace data used for validation in the offline phase
+* X_test.csv: Input energy trace data used for testing the AD model in the online phase
+* Y_test.csv: Output labels of X_test (either 0 or 1).
 
 
 
