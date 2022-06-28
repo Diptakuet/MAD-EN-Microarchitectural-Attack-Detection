@@ -8,7 +8,7 @@ do
   pow=$(sudo cat /sys/devices/virtual/powercap/intel-rapl/intel-rapl\:0/intel-rapl\:0\:2/energy_uj)
   sleep 0.0005
   pow1=$(sudo cat /sys/devices/virtual/powercap/intel-rapl/intel-rapl\:0/intel-rapl\:0\:2/energy_uj)
-  echo $(($pow1-$pow)) >> /home/Debopriya/medusa/Topic_3_Data_collection/All_Data/Useful_Resource/Benign_Application/byte/Data/byte_dram_1_50.csv
+  echo $(($pow1-$pow)) >> ~/Dataset/Benign_Application/byte/Data/byte_dram_1_50.csv
   sleep 0.0005
 done
 # Cored
@@ -25,7 +25,7 @@ do
   pow=$(sudo cat /sys/devices/virtual/powercap/intel-rapl/intel-rapl\:0/intel-rapl\:0\:0/energy_uj) 
   sleep 0.0005
   pow1=$(sudo cat /sys/devices/virtual/powercap/intel-rapl/intel-rapl\:0/intel-rapl\:0\:0/energy_uj)
-  echo $(($pow1-$pow)) >> /home/Debopriya/medusa/Topic_3_Data_collection/All_Data/Useful_Resource/Benign_Application/byte/Data/byte_core_1_50.csv
+  echo $(($pow1-$pow)) >> ~/Dataset/Benign_Application/byte/Data/byte_core_1_50.csv
   sleep 0.0005
 done
 #end_time=$(date +%s)
