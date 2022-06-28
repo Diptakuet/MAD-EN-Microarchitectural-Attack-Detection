@@ -14,7 +14,7 @@ To answer this question, the performance of the AD models is tested by decreasin
   * Y_test.csv: Output labels of X_test (either 0 or 1)
 - ## ML-based AD Models
   * [CNN-offline](https://github.com/Diptakuet/MAD-EN-Microarchitectural-Attack-Detection/blob/main/AD_Model/3000/CNN_1D.py): The CNN-based AD model used in the offline phase. The model is saved and utilized later in the online phase.
-  * [Restored_model_2500_samples_test.py](https://github.com/Diptakuet/MAD-EN-Microarchitectural-Attack- Detection/blob/main/AD_Model/3000/Restored_model_3000_samples_test.py): The pretrained CNN model used in the online phase to determine the performance with the test data.
+  * [Restored_model_2500_samples_test.py](https://github.com/Diptakuet/MAD-EN-Microarchitectural-Attack-Detection/blob/main/AD_Model/3000/Restored_model_3000_samples_test.py): The pretrained CNN model used in the online phase to determine the performance with the test data.
   * [Support Vector Machine (SVM)](https://github.com/Diptakuet/MAD-EN-Microarchitectural-Attack-Detection/blob/main/AD_Model/3000/svm.py): SVM-based AD model to compare the performance with the other ML-based models.
   * [K-th Nearest Neighbor (KNN)](https://github.com/Diptakuet/MAD-EN-Microarchitectural-Attack-Detection/blob/main/AD_Model/3000/knn.py): KNN-based AD model to compare the performance with the other ML-based models.
   * [Random Forest (RF)](https://github.com/Diptakuet/MAD-EN-Microarchitectural-Attack-Detection/blob/main/AD_Model/3000/rf.py): RF-based AD model to compare the performance with the other ML-based models.
