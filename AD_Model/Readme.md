@@ -10,5 +10,12 @@ To answer this question, the performance of the AD models is tested by decreasin
 separate AD model is trained for each case. Here, the name of the each directory corresponds to the number of samples per measurements for which the AD model is 
 created and tested. It is to be noted that, decreasing the number of samples results in faster anomaly detection as we sample the Intel RAPL framework with the highest possible resolution (500μs). Thus, the 500 samples correspond to the initial 5 seconds of the energy traces.
 
+[Data](https://github.com/Diptakuet/MAD-EN-Microarchitectural-Attack-Detection/tree/main/AD_Model/3000/Data)
+
+
+
+
+
+
 
 
