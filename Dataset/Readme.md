@@ -1,6 +1,11 @@
 ## Data Collection
 ### Prerequisite
-* install `phoronix-test-suite`
+* `phoronix-test-suite`
+* `pycharm`
+* `visual studio code`
+* `zoom`
+* `libreoffice`
+
 ### Benign Application:
 `cd ~`<br/>
 `cd Dataset/Benign_Application/`<br/>
