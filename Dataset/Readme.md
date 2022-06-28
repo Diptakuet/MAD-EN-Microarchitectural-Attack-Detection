@@ -11,3 +11,9 @@
 `cd <Test name>, e.g., cd aobench/`<br/>
 `cd Script/`<br/>
 `./benign_app.sh`<br/>
+
+
+Within the 'Script\' directory there are three bash script files:
+* `data.sh`: Record the energy consumption traces and save it to a csv file.
+*  `run_benign.sh`: Run the benign apps consecutively for a desired time.
+*  `benign_app.sh`: Execute the `data.sh` and `run_benign.sh` in parallel.
