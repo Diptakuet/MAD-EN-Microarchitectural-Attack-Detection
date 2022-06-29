@@ -14,3 +14,5 @@ The AR model is a multi-class classifier with 15 categories that covers 10 micro
 AR model is tested on the online phase with 150 energy trace measurements. Unlike the AD model, the test dataset does not contain any energy consumption
 traces from benign applications, as the AR model will be activated once the AD model detects an anomaly in the system. Again, the AR model is constructed
 with CNN, KNN, SVM, RF, and GB ML algorithms 2 with different numbers of samples.
+
+For details, the work is available as a preprint version-[MAD-EN: Microarchitectural Attack Detection through System-wide Energy Consumption](https://arxiv.org/abs/2206.00101#)
